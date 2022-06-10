@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color: #23252C;
+  --background-info-color: #1A1B21;
+  --button-email-background: #ffffff;
+  --button-email-textcolor: #374151;
+  --button-linkedin-background: #5093E2;;
+  --button-linkedin-textcolor: #ffffff;
+  --color-about-paragraph: #DCDCDC;
+  --color-about-title: #F5F5F5;
+  --contact-name: #FFFFFF;
+  --contact-subtitle: #F3BF99;
+  --social-media-background: #161619;
+  --main-font: 'Inter', sans-serif;
+}
+
+body {
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.profilePic {
+  width: 20vw;
+  height: 40vh;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.text-info {
+  background-color: var(--background-info-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20vw;
+  height: 52vh;
+  margin-top: -5px;
+  padding: 1em;
+}

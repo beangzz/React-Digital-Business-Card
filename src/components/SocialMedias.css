@@ -1,0 +1,17 @@
+.social-medias-section {
+  background: var(--social-media-background);
+  border-radius: 0px 0px 10px 10px;
+  width: 20vw;
+  height: 8vh;
+} 
+
+.social-medias-div {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1em 3em;
+}
+
+.social-medias-div img {
+  width: 20px;
+  height: 20px;
+}
